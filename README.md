@@ -22,13 +22,12 @@
 ## วิธีติดตั้ง Dev Container ใน VS Code
 1. เปิด VS Code → ไปที่ Extensions
 2. ค้นหาและติดตั้ง Dev Containers (จาก Microsoft)
-3. เปิดโปรเจกต์นี้ → VS Code จะถามให้ Reopen in Container
-4. หากไม่ขึ้นอัตโนมัติ: กด Ctrl+Shift+P (หรือ Cmd+Shift+P บน macOS) → พิมพ์ Dev Containers: Reopen in Container
+
 
 
 ## วิธีเริ่มใช้งาน
-1. ติดตั้ง Docker Desktop และ VS Code (พร้อมส่วนเสริม **Dev Containers**)
-2. เปิดโฟลเดอร์นี้ใน VS Code → จะมีปุ่ม **Reopen in Container**
+1. เปิดโปรเจกต์นี้ → VS Code จะถามให้ Reopen in Container
+2. หากไม่ขึ้นอัตโนมัติ: กด Ctrl+Shift+P (หรือ Cmd+Shift+P บน macOS) → พิมพ์ Dev Containers: Reopen in Container
 3. ติดตั้ง dependencies 
    ```bash
    npm install
