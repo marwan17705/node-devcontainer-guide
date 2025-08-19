@@ -1,0 +1,12 @@
+{
+  "name": "Node.js Dev (Alpine + Compose)",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "app",
+  "workspaceFolder": "/app",
+  "containerEnv": {
+    "TZ": "Asia/Bangkok",
+    "NODE_ENV": "development"
+  },
+  "postCreateCommand": "npm run start",
+
+}
